@@ -1,0 +1,16 @@
+server:port: 8080
+
+#spring:
+# mvc:
+#  view:
+#   prefix: /WEB-INF/views/
+#   suffix: .jsp
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    mode: HTML
+    cache: false
+    encoding: UTF-8
+    #     \u65B0\u7248\u672C\u4E0D\u652F\u6301content-type: text/html\uFF0C\u6545\u65B0\u5199\u6CD5
+    servlet:
+      content-type: text/html
